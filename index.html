@@ -1,0 +1,45 @@
+<html>
+ <head>
+  <meta charset="utf-8">
+  <link rel="StyleSheet" href="Design.css" type="text/css" media="screen">
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBODinD-y0Bmyd-ndlRsyMvlOo9IkzRqk8&libraries=places&sensor=false"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="/DSA/maps.js"></script>
+  <script src="/DSA/indexDesign.js"></script>
+ </head>
+ <body onload="initialize();change_background()">
+  <div class="container">
+   <header class="header-shadow">
+    <a href="/DSA"><img src="images/logo.png" style="position:absolute;width:300px;height:100px;margin-right:1000px;margin-top:5px;"></a>
+    <H1 align="center">Vineyards & wines</h1>
+    <a href="/DSA/search.php"><img src="images/search.png" style="position:absolute;width:100px;height:50px;right:0;top:0;margin-top:30px;margin-right:20px;"></a>
+   </header>
+
+   <div class="exp_text";> <H1 class="scroll" align="center">Explore</h1><h1 class="scroll">Vineyards & wines</h1><h1 class="scroll">&darr;</h1></div>
+   <div class="scroll parallax" id="parallax"></div>
+
+   <br>
+   <br>
+   <br>
+   
+   <div class="wrap">
+    <div class="box">
+     <h2 style="display:table;margin:0 auto;">French Vineyards</h2>
+     <hr>
+     <div id="map_canvas" style="display:table;margin:0 auto;width:100%;height:60%;"></div>
+    </div>
+    <div class="box">
+     <h2 style="display:table;margin:0 auto;">Australian Vineyards</h2>
+     <hr>
+     <div id="map_canvas_2" style="display:table;margin:0 auto;border:0px solid blue;width:100%;height:60%;"></div>
+    </div>
+   </div>
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <footer>Copyright &copy; UWE DSA Web Project</footer>
+  </div>
+ </body>
+</html>
